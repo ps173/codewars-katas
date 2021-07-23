@@ -1,8 +1,9 @@
-package ipvalidation
+package ipvalidation_test
 
 import (
 	"strconv"
 	s "strings"
+	"testing"
 )
 
 func Is_valid_ip(ip string) bool {
@@ -21,4 +22,16 @@ func Is_valid_ip(ip string) bool {
 		}
 	}
 	return len(numArr) > 0
+}
+
+func TestIs_valid_ip(t *testing.T) {
+	test1 := Is_valid_ip("1.2.3.4")
+	if test1 == false {
+		t.Error("Failed")
+	}
+
+	test2 := Is_valid_ip("0.2.3.4")
+	if test2 == true {
+		t.Error("Failed")
+	}
 }
