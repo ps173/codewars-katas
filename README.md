@@ -1,5 +1,5 @@
-# Codewars katas
-Daily code war questions untill I reach 3 kyu.
+# Codewars katas 🚀️✨️
+Daily code war questions untill I reach 3 kyu🚀️✨️.
 
 **CURRENT RANK: 7kyu** (cries to reach to 6kyu)
 
