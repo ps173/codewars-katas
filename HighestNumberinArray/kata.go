@@ -32,15 +32,15 @@ func HighestRank(nums []int) int {
 	return -1
 }
 
-// func FindMaxVal(numbers map[int]int) int {
-// 	var maxNumber int
-// 	for maxNumber = range numbers {
-// 		break
-// 	}
-// 	for k := range numbers {
-// 		if k > maxNumber {
-// 			maxNumber = k
-// 		}
-// 	}
-// 	return maxNumber
-// }
+func FindMaxVal(numbers map[int]int) int {
+	var maxNumber int
+	for maxNumber = range numbers {
+		break
+	}
+	for k := range numbers {
+		if k > maxNumber {
+			maxNumber = k
+		}
+	}
+	return maxNumber
+}
