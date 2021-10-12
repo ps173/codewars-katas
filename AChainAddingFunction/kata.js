@@ -4,10 +4,10 @@ function add(x) {
   return add(x + y);
  };
 
- f.result = function() {
+ f.valueOf = function() {
   return x;
  };
 
  return f;
 }
-console.log(add(1)(2)(3)(4).result());
+console.log(add(1)(2)(3)(4).valueOf());
